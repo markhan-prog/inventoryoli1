@@ -1,14 +1,24 @@
-// Updated App.tsx
-
 import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Pricing from './components/Pricing';
+import Footer from './components/Footer';
+import WaitlistSection from './components/WaitlistSection';
+import ValueProps from './components/ValueProps';
 
 const App = () => {
-    return (
-        <div>
-            <h1>Welcome to Inventory App</h1>
-            {/* Additional sections go here */}
-        </div>
-    );
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Pricing />
+      <Footer />
+      <WaitlistSection />
+      <ValueProps />
+    </div>
+  );
 };
 
 export default App;
