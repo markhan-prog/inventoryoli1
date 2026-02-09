@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { submitWaitlistForm, FormData } from '../services/formSubmit';
+import { submitWaitlistForm, FormData } from '../services/formSubmit.ts';
 
 const WaitlistSection: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);

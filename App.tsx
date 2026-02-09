@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Pricing from './components/Pricing';
-import Footer from './components/Footer';
-import WaitlistSection from './components/WaitlistSection';
-import ValueProps from './components/ValueProps';
-import AiAssistant from './components/AiAssistant';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import Features from './components/Features.tsx';
+import Pricing from './components/Pricing.tsx';
+import Footer from './components/Footer.tsx';
+import WaitlistSection from './components/WaitlistSection.tsx';
+import ValueProps from './components/ValueProps.tsx';
+import AiAssistant from './components/AiAssistant.tsx';
 
 const App: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);

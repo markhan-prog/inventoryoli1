@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { getAiStockInsights } from '../services/gemini';
+import { getAiStockInsights } from '../services/gemini.ts';
 
 const AiAssistant: React.FC = () => {
   const [input, setInput] = useState('');
